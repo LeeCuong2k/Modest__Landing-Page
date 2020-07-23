@@ -1,0 +1,61 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Myriad Pro Regular';
+    line-height: 1.6rem;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #FFF;
+    --black-color: #000;
+    --text-color: #a4aead;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.grid {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.grid__column-12 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__column-3 {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid__column-4 {
+    width: 33.3334%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
